@@ -1,6 +1,10 @@
 public class Main {
 
     public static void main(String[] args){
-        System.out.println("Hello world");
+
+        Demo demo = new Demo();
+
+        demo.setAge(22);
+        System.out.println("Hello " + demo.getAge());
     }
 }
